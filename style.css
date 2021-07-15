@@ -1,0 +1,10 @@
+#capa{
+    background-image: url(capabia.jpg);
+    width: 900px ;
+    height: 100px;
+}
+.teste {
+    display: inline;
+    border: tomato solid ;
+    padding: 1px;
+}

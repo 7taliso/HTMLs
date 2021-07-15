@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>switch case(break-default)</title>
+</head>
+
+<body>
+    <code>
+        <pre>
+            switch('amarelo'){
+                case'verde':console.log('oi')
+                case 
+                'amarelo':console.log("oi2")
+        </pre>
+    </code>
+    <script>
+        switch('amarelo'){
+            case'verde':console.log('oi') 
+            break
+            case 'azul':console.log("oi2")
+            break
+            default  : console.log('padrão')  
+            break    
+        }
+
+
+        a=10  
+        switch(a>10 ){
+            case true: console.log('oi')
+            break
+            case false: console.log(2345)
+            break
+
+        }
+        a=9
+        switch(a ){
+            case 9: console.log(333333)
+            case false: console.log(2345)
+        }
+
+        switch(a<2){
+            case 9: console.log(55555)
+            case false: console.log(77777)
+        }
+
+        switch(a) {
+            case 9:console.log("hhhhhhh")
+            break
+            default:console.log('ok')
+        }
+
+        var b =1
+        switch(0,null,'',"",undefined) {
+            case 0,null,'',"",undefined:console.log("jjjjjjjj")
+            break
+        }
+
+        switch('hoje'){
+            case 'gfggg':
+            case 'iuuiu':case'gpuohohg':
+            case 'hojehgg':console.log(1);
+            default:console.log('sdfsdf');
+            break
+        
+        }
+
+        switch('hoje'){
+            case 'gfggg':
+            case 'iuuiu':case'gpuohohg':
+            case 'hoje':console.log('lklklkl');
+            default:console.log(
+            'sdfsdf');
+            break
+        
+        }
+
+
+    </script>
+</body>
+</html>
